@@ -5,7 +5,7 @@
 ##############################################################################
 
 #from openerp import models, fields, api
-
+from openerp import SUPERUSER_ID
 from openerp.osv import osv, fields
 class SaleOrder(osv.Model):
     _inherit = "sale.order"
